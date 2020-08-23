@@ -2,3 +2,8 @@ label {
     display: flex;
     flex-direction: column;
 }
+
+body {
+    background-color: salmon;
+
+}
