@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css"
+    <title>Joe's Journal</title>
+</head>
+<body>
+    <header>  
+        <img src="images/journalLogo.png" alt="logo picture stating Joe's Own">
+    </header>
+
+    <main>
+        <div class="introduction">
+            <h1>Welcome to my daily tracker of whacky coding adventures</h1>
+        </div>
+    <!--entryContents will house all divs for a new entry into journal-->    
+        <section class="entryContents">
+            <div class="date">
+                <form action="">
+                    <fieldset>
+                        <label for="journalDate">Date of Entry</label>
+                        <input type = "date" name = "journalDate" id = "journalDate">
+                    </fieldset>
+                    <fieldset>
+                        <label for="mood">How are you feeling, Joe?</label>
+                            <select name="moods" id="moods">
+                                <option value="apatethic">Apathetic 😐</option>
+                                <option value="sad">Sad 😞</option>
+                                <option value="happy">Happy 😃</option>
+                                <option value="angry">Angry 🤬</option>
+                            </select>
+                    </fieldset>
+                    <fieldset>
+                        <label for="concepts">Concepts covered</label>
+                            <input id="concepts" name="concepts"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <label for="journalEntry">Journal Entry</label>
+                            <textarea id="journalEntry" name="journalEntry"></textarea>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+    </body>
+</html>
