@@ -1,8 +1,11 @@
-export const JournalEntryComponent = (entry) => {
+export const JournalEntryComponent = (statement) => {
     return `
-        <section id="entry--${entry.id}" class="journalEntry">
-            Display the entry's full text, and the date
-            it was entered here.
+        <section id="entry--${statement.id}" class="journalEntry">
+            ${statement.entry}
+            ${statement.date}
         </section>
     `
+
 }
+
+console.log("checking to see journalEntryComp")
