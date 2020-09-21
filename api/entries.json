@@ -1,123 +1,64 @@
 {
+  "moods": [
+    {
+      "id": 1,
+      "label": "Apathetic"
+    },
+    {
+      "id": 2,
+      "label": "Sad"
+    },
+    {
+      "id": 3,
+      "label": "Happy"
+    },
+    {
+      "id": 4,
+      "label": "Angry"
+    }
+  ],
   "entries": [
     {
       "id": 1,
       "date": "07/24/2025",
       "concept": "HTML & CSS",
       "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
-      "mood": "Ok"
+      "moodId": "3"
     },
     {
       "id": 2,
       "date": "08/10/2025",
       "concept": "Going over how the bootcamp works",
       "entry": "We discussed how the next 3 months are going to go",
-      "mood": "Happy"
+      "moodId": "3"
     },
     {
       "id": 3,
       "date": "08/20/2025",
       "concept": "Javscript",
       "entry": "We have started going over JS scripting and putting data into the website",
-      "mood": "Happy"
+      "moodId": "3"
     },
     {
       "journalDate": "",
-      "journalMood": "apatethic",
+      "moodId": "apatethic",
       "journalConcepts": "",
       "journalEntry": "",
       "id": 4
     },
     {
-      "journalDate": "",
-      "journalMood": "happy",
-      "journalConcepts": "",
-      "journalEntry": "",
+      "journalDate": "2020-09-22",
+      "moodId": "happy",
+      "journalConcepts": "sdf",
+      "journalEntry": "adfafd",
       "id": 5
     },
     {
-      "journalDate": "2020-09-30",
-      "journalMood": "apatethic",
-      "journalConcepts": "",
-      "journalEntry": "",
-      "id": 6
-    },
-    {
-      "journalDate": "2020-09-30",
-      "journalMood": "apatethic",
-      "journalConcepts": "testing string save",
-      "journalEntry": "",
+      "journalDate": "2020-09-22",
+      "moodId": "sad",
+      "journalConcepts": "asdfa",
+      "journalEntry": "adsfava",
       "id": 7
-    },
-    {
-      "journalDate": "",
-      "journalMood": "apatethic",
-      "journalConcepts": "",
-      "journalEntry": "",
-      "id": 8
-    },
-    {
-      "journalDate": "",
-      "journalMood": "apatethic",
-      "journalConcepts": "",
-      "journalEntry": "",
-      "id": 9
-    },
-    {
-      "journalDate": "",
-      "journalMood": "apatethic",
-      "journalConcepts": "",
-      "journalEntry": "",
-      "id": 10
-    },
-    {
-      "journalDate": "2020-09-16",
-      "journalMood": "apatethic",
-      "journalConcepts": "",
-      "journalEntry": "fafd",
-      "id": 11
-    },
-    {
-      "journalDate": "",
-      "journalMood": "apatethic",
-      "journalConcepts": "asdf",
-      "journalEntry": "",
-      "id": 12
-    },
-    {
-      "journalDate": "2020-09-06",
-      "journalMood": "apatethic",
-      "journalConcepts": "",
-      "journalEntry": "adsf",
-      "id": 13
-    },
-    {
-      "journalDate": "2020-09-06",
-      "journalMood": "angry",
-      "journalConcepts": "shoot",
-      "journalEntry": "fasdf",
-      "id": 14
-    },
-    {
-      "journalDate": "2020-09-06",
-      "journalMood": "apatethic",
-      "journalConcepts": "wow",
-      "journalEntry": "apparently i cant have spaces",
-      "id": 15
-    },
-    {
-      "journalDate": "2020-09-07",
-      "journalMood": "apatethic",
-      "journalConcepts": "i can has space",
-      "journalEntry": "let us see",
-      "id": 16
-    },
-    {
-      "journalDate": "2020-09-06",
-      "journalMood": "apatethic",
-      "journalConcepts": "seems to work",
-      "journalEntry": "for some reason it seems no all entries are saving. will need to ask about it on tuesday.",
-      "id": 17
     }
   ]
 }

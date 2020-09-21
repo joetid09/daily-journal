@@ -13,7 +13,7 @@ eventHub.addEventListener("click", event => {
         console.log("does my entry have info?!", date, mood, concepts, entry)
         const newEntry = {
             journalDate: date.value,
-            journalMood: mood.value,
+            moodId: mood.id,
             journalConcepts: concepts.value,
             journalEntry: entry.value
         }
