@@ -7,3 +7,11 @@ body {
     background-color: beige;
 
 }
+
+.entry-log {
+    background-color: mintcream;
+    opacity: 50;
+    border-bottom: 2px solid forestgreen;
+    border-left: 2em solid  salmon;
+    width: 50%
+}
