@@ -2,19 +2,19 @@
   "moods": [
     {
       "id": 1,
-      "label": "Apathetic"
+      "label": "Apathetic 😐"
     },
     {
       "id": 2,
-      "label": "Sad"
+      "label": "Sad 😞"
     },
     {
       "id": 3,
-      "label": "Happy"
+      "label": "Happy 😃"
     },
     {
       "id": 4,
-      "label": "Angry"
+      "label": "Angry 😃"
     }
   ],
   "entries": [
@@ -38,34 +38,6 @@
       "concept": "Javscript",
       "entry": "We have started going over JS scripting and putting data into the website",
       "moodId": "3"
-    },
-    {
-      "journalDate": "",
-      "moodId": "apatethic",
-      "journalConcepts": "",
-      "journalEntry": "",
-      "id": 4
-    },
-    {
-      "journalDate": "2020-09-22",
-      "moodId": "happy",
-      "journalConcepts": "sdf",
-      "journalEntry": "adfafd",
-      "id": 5
-    },
-    {
-      "journalDate": "2020-09-22",
-      "moodId": "sad",
-      "journalConcepts": "asdfa",
-      "journalEntry": "adsfava",
-      "id": 7
-    },
-    {
-      "journalDate": "",
-      "moodId": "moods",
-      "journalConcepts": "",
-      "journalEntry": "",
-      "id": 8
     }
   ]
 }

@@ -8,10 +8,12 @@ export const renderForm = formInfo => {
     ${formHTML.map(itemObject => {
         return `<section id="${itemObject.id}">
         <div class ="entry-log">
-            <p>Entry Date:  ${itemObject.journalDate}</p>
-            <p>Topic:  ${itemObject.journalConcepts}</p>
-            <p>Entry: ${itemObject.journalEntry}</p>
-        </div>`
+            <p>Entry Date:  ${itemObject.date}</p>
+            <p>Topic:  ${itemObject.concept}</p>
+            <p>Entry: ${itemObject.entry}</p>
+            <p>Mood: ${itemObject.mood.label}</p>
+        </div>
+    </section>`
     })}
    
 `}

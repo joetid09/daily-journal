@@ -1,10 +1,12 @@
 console.log("hello world")
 import { JournalForm } from "./../formPieces/journalForm.js"
-import { EntryListComponent } from "./JournalEntryLists.js"
-import { getEntries, useJournalEntries } from "./JournalDataProvider.js"
 import { Form } from "./../formPieces/formList.js"
+import { moodSelect } from "./../formPieces/moodSelect.js"
+import { useMoods } from "./MoodProvider.js"
 
-getEntries()
 JournalForm()
 Form()
+console.log(useMoods())
+moodSelect()
+
 
