@@ -1,4 +1,5 @@
-import { saveJournalEntry } from "../scripts/JournalDataProvider.js"
+import { renderForm } from "./formList.js"
+import { getEntries, useJournalEntries, saveJournalEntry } from "./../scripts/JournalDataProvider.js"
 
 const formElement = document.querySelector(".entryContents")
 const eventHub = document.querySelector("#allJournal")
@@ -10,10 +11,9 @@ eventHub.addEventListener("click", event => {
         const mood = document.querySelector("#moods")
         const concepts = document.querySelector("#concepts")
         const entry = document.querySelector("#journalEntry")
-        console.log("does my entry have info?!", date, mood, concepts, entry)
         const newEntry = {
             journalDate: date.value,
-            moodId: mood.id,
+            moodId: mood.option.id,
             journalConcepts: concepts.value,
             journalEntry: entry.value
         }
@@ -34,10 +34,10 @@ export const JournalForm = () => {
         <fieldset>
             <label for="mood">How are you feeling, Joe?</label>
                 <select name="moods" id="moods">
-                    <option value="apatethic">Apathetic 😐</option>
-                    <option value="sad">Sad 😞</option>
-                    <option value="happy">Happy 😃</option>
-                    <option value="angry">Angry 🤬</option>
+                    <option id ="1" value="apatethic">Apathetic 😐</option>
+                    <option id = "2"value="sad">Sad 😞</option>
+                    <option id = "3" value="happy">Happy 😃</option>
+                    <option id = "4""value="angry">Angry 🤬</option>
                 </select>
         </fieldset>
         <fieldset>

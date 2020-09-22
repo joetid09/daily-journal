@@ -1,9 +1,10 @@
 console.log("hello world")
-import { JournalForm } from "../formPieces/journalForm.js"
+import { JournalForm } from "./../formPieces/journalForm.js"
 import { EntryListComponent } from "./JournalEntryLists.js"
-import { getEntries } from "./JournalDataProvider.js"
+import { getEntries, useJournalEntries } from "./JournalDataProvider.js"
+import { Form } from "./../formPieces/formList.js"
 
-
-JournalForm()
 getEntries()
-EntryListComponent()
+JournalForm()
+Form()
+

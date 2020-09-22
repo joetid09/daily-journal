@@ -8,7 +8,8 @@
 
 // This is the original data.
 let journal = []
-const evenHub = document.querySelector("#allJournal")
+
+const eventHub = document.querySelector("#allJournal")
 const dispatchStateChangeEvent = () => {
     eventHub.dispatchEvent(new CustomEvent("journalStateChanged"))
 }
@@ -21,6 +22,14 @@ export const getEntries = () => {
                 journal = parsedEntries
             }
         )
+}
+
+export const useJournalEntries = () => {
+    const sortedByDate = journal.sort(
+        (currentEntry, nextEntry) =>
+            Date.parse(currentEntry.date) - Date.parse(nextEntry.date)
+    )
+    return sortedByDate
 }
 
 export const saveJournalEntry = entryObject => {
@@ -41,10 +50,4 @@ export const saveJournalEntry = entryObject => {
     You export a function that provides a version of the
     raw data in the format that you want
 */
-export const useJournalEntries = () => {
-    const sortedByDate = journal.sort(
-        (currentEntry, nextEntry) =>
-            Date.parse(currentEntry.date) - Date.parse(nextEntry.date)
-    )
-    return sortedByDate
-}
+

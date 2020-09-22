@@ -59,6 +59,13 @@
       "journalConcepts": "asdfa",
       "journalEntry": "adsfava",
       "id": 7
+    },
+    {
+      "journalDate": "",
+      "moodId": "moods",
+      "journalConcepts": "",
+      "journalEntry": "",
+      "id": 8
     }
   ]
 }
