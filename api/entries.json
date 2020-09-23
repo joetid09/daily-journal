@@ -24,20 +24,6 @@
       "concept": "HTML & CSS",
       "entry": "We talked about HTML components and how to make grid layouts with Flexbox in CSS.",
       "moodId": "3"
-    },
-    {
-      "id": 2,
-      "date": "08/10/2025",
-      "concept": "Going over how the bootcamp works",
-      "entry": "We discussed how the next 3 months are going to go",
-      "moodId": "3"
-    },
-    {
-      "id": 3,
-      "date": "08/20/2025",
-      "concept": "Javscript",
-      "entry": "We have started going over JS scripting and putting data into the website",
-      "moodId": "3"
     }
   ]
 }

@@ -4,7 +4,6 @@ import { getMoods, useMoods } from "../scripts/MoodProvider.js"
 
 const renderDropDown = selectMood => {
     // const listItems = useMoods()
-    debugger;
     const selectionList = document.querySelector("#moods")
     selectionList.innerHTML = `
     ${selectMood.map(itemObject => {
